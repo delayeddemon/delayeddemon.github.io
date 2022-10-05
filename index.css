@@ -42,7 +42,7 @@ ul{
 }
 body{
     background-image: url("bg.png");
-    padding: 2in 2.5in;
+    padding: 0.2in 2.5in ;
     
     
 }
@@ -60,4 +60,8 @@ footer{
 a{
     align-self: auto;
     padding: auto;
+}
+hr{
+    
+    height: "2px";
 }
