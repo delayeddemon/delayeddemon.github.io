@@ -1,4 +1,26 @@
 *{
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgba(59, 58, 58, 0.993);
     color: rgb(212, 212, 212);
+    
+}
+body{
+    
+    border: solid rgb(212, 212, 212);
+    padding: 13px 13px 20px 20px;
+}
+#heading{
+    background-image: url("https://mmos.com/wp-content/uploads/2020/06/chivalry-2-medieval-knights-banner.jpg");
+    background-color: cccc;
+    text-align: center;
+    padding: auto;
+}
+#p1{
+    text-align: center;
+    padding: auto;
+}
+a{
+    align-self: auto;
+    padding: auto;
 }
