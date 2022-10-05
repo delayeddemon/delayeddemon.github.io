@@ -1,25 +1,62 @@
+
 *{
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(59, 58, 58, 0.993);
-    color: rgb(212, 212, 212);
     
+    
+}
+#subhead{
+    margin-left: 0.3in;
+    margin-right:0.3in;
+    color:  rgb(90, 90, 90);
+    
+}
+h1{
+    color:  black;
+    margin-left: 0.5in;
+    margin-right: 0.5in;
+}
+p{
+    color:  rgb(90, 90, 90);
+    margin-left: 0.3in;
+    margin-right: 0.3in;
+}
+ol{
+    margin-left: 0.3in;
+    margin-right: 0.3in;
+}
+#img{
+    
+    height: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    margin-left: 0.3in;
+    margin-right: 0.3in;
+}
+ul{
+    margin-left: 0.3in;
+    margin-right: 0.3in;
 }
 body{
+    background-image: url("bg.png");
+    padding: 2in 2.5in;
     
-    border: solid rgb(212, 212, 212);
-    padding: 13px 13px 20px 20px;
+    
 }
 #heading{
-    background-image: url("https://mmos.com/wp-content/uploads/2020/06/chivalry-2-medieval-knights-banner.jpg");
+    background-image: url("canvas.png");
     background-color: cccc;
-    text-align: center;
     padding: auto;
+    color:  rgb(90, 90, 90);
 }
-#p1{
+footer{
     text-align: center;
-    padding: auto;
+    color: rgb(255, 255, 255);
 }
+
 a{
     align-self: auto;
     padding: auto;
