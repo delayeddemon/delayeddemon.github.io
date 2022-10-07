@@ -62,10 +62,9 @@ body{
 }
 #img{
     
-    position:relative;
-    margin: auto;
-    display: block;
-    block-size: 70%;
+    max-width: 100%;
+    height: auto;
+
 }
 footer{
     text-align: center;
