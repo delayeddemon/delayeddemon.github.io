@@ -60,6 +60,13 @@ body{
     padding: auto;
     color:  rgb(90, 90, 90);
 }
+#img{
+    
+    position:relative;
+    margin: auto;
+    display: block;
+    block-size: 70%;
+}
 footer{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -74,7 +81,8 @@ hr{
     height: "0px";
 }
 .nxt{
-    padding-left: 90%;
+    position:absolute;
+    right: 20%;
 }
 .post{
     list-style-image: url("comments2.png");
