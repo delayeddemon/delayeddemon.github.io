@@ -27,10 +27,12 @@ ol{
 }
 #img{
     
-    height: 90%;
+    
     display: block;
     padding-left: auto;
     padding-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 h3{
     padding-left: 3%;
@@ -60,12 +62,7 @@ body{
     padding: auto;
     color:  rgb(90, 90, 90);
 }
-#img{
-    
-    max-width: 100%;
-    height: auto;
 
-}
 footer{
     text-align: center;
     color: rgb(255, 255, 255);
