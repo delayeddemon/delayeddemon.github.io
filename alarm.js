@@ -5,8 +5,10 @@ var editorTime = 0;
 var phoneAllowedTime = 0;
 var intervalId = 0;
 var timerOn = "";
-var editorToPhoneRatio = 1; // 1 hour of editor time = 10 minutes of phone time
+var editorToPhoneRatio = 6; // 1 hour of editor time = 10 minutes of phone time
 var phoneToEditorRatio = 1; // 1 minute of phone time = 1 minute of editor time
+
+
 
 function startEditorTimer() {
     clearInterval(intervalId);
