@@ -1,106 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-    <link rel="stylesheet" href="index.css">
-<head >
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFirstWebpage</title>
-</head>
-<body id="bdy">
-    <div id="heading">
-    
-    <br><br>
-    <div id="head1">
-    <h1><b>what makes boruto and naruto series interesting? ....find out some more random interesting topics about the anime
-    </div>
-    </b></h1>
-    <br><br><br>
-    <h2 id="subhead">
-        <b>What Makes Boruto/Naruto Series Interesting?</b>
-    </h2>
-    
-    <p id="p1">  
-        hi guys .welcome to my new blog.have you ever wondered why is the boruto and naruto series so interesting?so lets get started with 5 things that makes these series so interesting...
-    </p>
-    <br><br>
-    <h2 id="subhead">
-        <b>1.the mischievous power</b>
-    </h2>
-    <img src="https://1.bp.blogspot.com/-Kdx9YKk034Y/Xk_mQQFMZzI/AAAAAAAAA0Q/6x5P8XlVkYYuVlU0yTKGe3f0D0CHkEpbgCLcBGAsYHQ/s320/ev.png" alt="Image not found" height="300" id="img">
-    <br><br>
-    <p id="p1">  
-        the most interesting thing about both the series is the unusual power possessed by the main characters and the way they show only a small part of it in the beginning of series.this makes the audience eager to know more about their powers .and they finally get addicted to the series
-    </p>
-    <h2 id="subhead">
-        <b>2 suspense head start </b>
-    </h2>
-    <br><br><br>
-    <p id="p1">  
-        suspense head start is another way to attract audience towards the anime.This way also works well..showing some of the most interesting clips of anime in the beginning is a great idea to boost the addiction of fans
-    </p>
+<html>
+<body>
 
+    <link rel="stylesheet" type="text/css" href="alarm.css">
 
-
-    <h2 id="subhead">
-        <b>3.the unsatisfying end of episodes</b>
-    </h2>
-    
-    <p id="p1">  
-        i know this one is weird [but everything counts]....when we notice every episode in the series arc, it has an unsatisfying end leaving us in total suspense which makes us think about what will happen in the next episode and by the end of the week....it makes audience restless...it makes every episode interesting[unless  its a filler]
-    </p>
-    <br><br>
-
-    <h2 id="subhead">
-        <b>4. unpredictable turns</b>
-    </h2>
-    
-    <p id="p1">  
-        i wonder if you guys have noticed it...the anime always takes unpredictable turns and the main character always ends up being centre of all the trouble ....[i think that's why kakashi calls naruto "unpredictable knucklehead"]...all that can go wrong will  go wrong along with things that have no chance of getting wrong
-    </p>
-    <br><br>
-
-    <h2 id="subhead">
-        <b>5.Amazing fights</b>
-    </h2>
-    
-    <p id="p1">  
-        Every Time audience watch a fight in naruto or boruto series...the fight makes them tensed and totally involved with the flow ...the way they take control of the battles.  The fight takes shifts and involves  all others in a fights
-        <br><br><br>
-        thanks for watching
-
-        <br><br><br>
-
-        have a nice day
-        <br><br>
-        <a href="whatsapp://send?text=http://abidshaik.me/"><img src="share.png" alt="share" height="18"></a>
-        
-        <a href="form.html" class="nxt"><img src="next.png" alt="not found" height="18"></a>
-        <hr  id="hrtag" width="90%"> 
-        <h3>Comments</h3>
-        <ul>
-            <li class="ravi">  <b>Ravi vanam : </b>Great job, keep it up</li>
-            <ul>
-                <li class="admin">  <b> abidshaik : </b> welcome</li>
-            </ul>
-        </ul>
-        <br>
-        <br>   
-
-    </p>
-    <br>
-    <ul class="post">
-        <li>
-            <h3> Enter Comment  <br></h3><hr width="97%">
-        </li>
-    </ul>
-    <br>
-    
-    
-    
-</div>
-<div>
-    <footer> <h2>Thank you</h2> </footer>
-    </div>
-</body> 
+    <button id="editor" onclick="startEditorTimer()">Editor</button>
+    <button id="phone" onclick="startPhoneTimer()">Phone</button>
+    <button id="pause" onclick="pauseTimer()">Pause</button>
+    <button id="reset" onclick="resetTimer()">Reset</button>
+    <p id="message"></p>
+    <p id="editorTime"></p>
+    <p id="phoneTime"></p>
+    <p id="remainingPhoneTime"></p>
+    <audio id="timeup" src="timeup.mp3"></audio>
+    <script src="alarm.js"></script>
+</body>
 </html>

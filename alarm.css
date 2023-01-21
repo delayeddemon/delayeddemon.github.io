@@ -1,0 +1,32 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    background-color: #ffb347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6b6b;
+}
+
+#message {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+#editorTime, #phoneTime, #remainingPhoneTime {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
